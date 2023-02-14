@@ -11,8 +11,8 @@ Versions will be iterated with dates for posterity of old presets.
 
 # Maintainers
 
-When updating preset zips, please upload with the release tag format "gamename-weekly-settings-month-year.zip"\
-(Example: "prime-weekly-settings-feb-2023.zip")
+When updating preset zips, please upload with the release tag format "gamename-weekly-settings-month-year" and use this same format for the zip file.\
+(Example: "prime-weekly-settings-feb-2023")
 
 Then edit/replace the files in [Prime](./Prime/) or [Echoes](./Echoes/) with the file format "gamename-weekname--weekly-settings-current.rdvpreset"\
 (Example: "echoes-even-weekly-settings-current.rdvpreset")
