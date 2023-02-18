@@ -1,9 +1,9 @@
 {
     "schema_version": 43,
     "base_preset_uuid": null,
-    "name": "Actual Odd Weekly",
+    "name": "Echoes Odd Weekly",
     "uuid": "072aab5c-8b13-472a-90b3-d5ac5cce3dbe",
-    "description": "A preset that was customized.",
+    "description": "The preset for Echoes odd-week settings.",
     "game": "prime2",
     "configuration": {
         "trick_level": {
