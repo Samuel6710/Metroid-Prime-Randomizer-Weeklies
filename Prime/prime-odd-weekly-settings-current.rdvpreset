@@ -3,7 +3,7 @@
     "base_preset_uuid": null,
     "name": "Odd Weekly Settings (February 2023)",
     "uuid": "0fd63e0f-322d-41ed-99ef-09691b7abac5",
-    "description": "A preset that was customized.",
+    "description": "The preset for Prime odd-week settings.",
     "game": "prime1",
     "configuration": {
         "trick_level": {
