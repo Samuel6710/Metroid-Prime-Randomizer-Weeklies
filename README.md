@@ -13,7 +13,7 @@ To download individual files, use the RAW button and then right-click -> save as
 # Maintainers
 
 When updating preset zips, please create a new release with the tag format "weekly-settings-month-year" and upload the new zip with the other game's current zip. Use the following format for the zip filenames.\
-*(Tag Example: "weekly-settings-feb-2023" 
+*(Tag Example: "weekly-settings-feb-2023")\
 (Zip Example: "prime-weekly-settings-feb-2023.zip")*
 
 Then edit/replace the files in [Prime](./Prime/) or [Echoes](./Echoes/) with the file format "gamename-weekname--weekly-settings-current.rdvpreset"\
