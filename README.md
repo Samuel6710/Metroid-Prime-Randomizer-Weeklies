@@ -17,5 +17,5 @@ When updating preset zips, please create a new release with the tag format "week
 *(Tag Example: "weekly-settings-feb-2023")\
 (Zip Example: "prime-weekly-settings-feb-2023.zip")*
 
-Then edit/replace the files in [Prime](./Prime/) or [Echoes](./Echoes/) with the file format "gamename-weekname--weekly-settings-current.rdvpreset"\
+Then edit/replace the files in [Prime](./Prime/) or [Echoes](./Echoes/) with the file format "gamename-weekname-weekly-settings-current.rdvpreset"\
 *(File Example: "echoes-even-weekly-settings-current.rdvpreset")*
