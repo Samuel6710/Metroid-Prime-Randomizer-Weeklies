@@ -12,7 +12,7 @@ To download individual files, use the RAW button and then right-click -> save as
 
 # Maintainers
 
-When updating preset zips, please create a new release with the tag format "weekly-settings-month-year" and upload the new zip with the other game's current zip. Use the following format for the zip filenames.\
+When updating preset zips, please create a new release with the tag format "weekly-settings-month-year" and upload the new zip with the other game's current zip. Use the same format for the zip filenames with the games' name appended to the front of the zip.\
 *(Tag Example: "weekly-settings-feb-2023")\
 (Zip Example: "prime-weekly-settings-feb-2023.zip")*
 
