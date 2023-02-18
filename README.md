@@ -13,7 +13,7 @@ Version zips will be iterated with dates for posterity of old presets.\
 
 # Maintainers
 
-When updating preset zips, please create a new release with the tag format "weekly-settings-month-year" and upload the new zip with the other game's current zip. Use the same format for the zip filenames with the games' name appended to the front of the zip. Bonus points for including a screenshot of preset info from Caretaker Class Drone.\
+When updating preset zips, please create a new release with the tag format "weekly-settings-month-year" and upload the new zip along with the other game's current zip. Use the same format for the zip filenames with the games' name appended to the front of the zip. Bonus points for including a screenshot of preset info from Caretaker Class Drone.\
 *(Tag Example: "weekly-settings-feb-2023")\
 (Zip Example: "prime-weekly-settings-feb-2023.zip")*
 
