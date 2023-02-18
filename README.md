@@ -7,12 +7,14 @@ A repository for the community weekly race presets for the Metroid Prime Randomi
 [Echoes Odd Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Echoes/echoes-odd-weekly-settings-current.rdvpreset)\
 [Echoes Even Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Echoes/echoes-even-weekly-settings-current.rdvpreset)
 
-Versions will be iterated with dates for posterity of old presets.
+Version zips will be iterated with dates for posterity of old presets.\
+To download individual files, use the RAW button and then right-click -> save as. Make sure to remove the ".txt" that automatically appends to the end of the file.
 
 # Maintainers
 
-When updating preset zips, please upload with the release tag format "gamename-weekly-settings-month-year" and use the same format for the zip filename.\
-*(Example: "prime-weekly-settings-feb-2023")*
+When updating preset zips, please create a new release with the tag format "weekly-settings-month-year" and upload the new zip with the other game's current zip. Use the following format for the zip filenames.\
+*(Tag Example: "weekly-settings-feb-2023" 
+(Zip Example: "prime-weekly-settings-feb-2023.zip")*
 
 Then edit/replace the files in [Prime](./Prime/) or [Echoes](./Echoes/) with the file format "gamename-weekname--weekly-settings-current.rdvpreset"\
-*(Example: "echoes-even-weekly-settings-current.rdvpreset")*
+*(File Example: "echoes-even-weekly-settings-current.rdvpreset")*
