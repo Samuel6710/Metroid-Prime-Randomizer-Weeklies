@@ -1,7 +1,7 @@
 {
     "schema_version": 43,
     "base_preset_uuid": null,
-    "name": "Echoes Even Weekly",
+    "name": "Even Weekly Settings (February 2023)",
     "uuid": "fd5f4762-607d-4371-9c8e-b884b069c9f9",
     "description": "The preset for Echoes even-week settings.",
     "game": "prime2",
