@@ -1,9 +1,9 @@
 {
-    "schema_version": 44,
+    "schema_version": 63,
     "base_preset_uuid": null,
-    "name": "Odd Weekly Settings (February 2023)",
+    "name": "Odd Weekly Settings (September 2023)",
     "uuid": "0fd63e0f-322d-41ed-99ef-09691b7abac5",
-    "description": "The preset for Prime odd-week settings.",
+    "description": "Odd week settings for the Metroid Prime Randomizer Community Weekly Races.",
     "game": "prime1",
     "configuration": {
         "trick_level": {
@@ -23,21 +23,22 @@
         },
         "starting_location": [
             {
-                "world_name": "Tallon Overworld",
-                "area_name": "Landing Site"
+                "region": "Tallon Overworld",
+                "area": "Landing Site",
+                "node": "Ship"
             }
         ],
         "available_locations": {
             "randomization_mode": "full",
             "excluded_indices": []
         },
-        "major_items_configuration": {
-            "items_state": {
+        "standard_pickup_configuration": {
+            "pickups_state": {
                 "Charge Beam": {
-                    "num_included_in_starting_items": 1
+                    "num_included_in_starting_pickups": 1
                 },
                 "Power Beam": {
-                    "num_included_in_starting_items": 1
+                    "num_included_in_starting_pickups": 1
                 },
                 "Wave Beam": {
                     "num_shuffled_pickups": 1
@@ -58,10 +59,10 @@
                     "num_shuffled_pickups": 1
                 },
                 "Combat Visor": {
-                    "num_included_in_starting_items": 1
+                    "num_included_in_starting_pickups": 1
                 },
                 "Scan Visor": {
-                    "num_included_in_starting_items": 1
+                    "num_included_in_starting_pickups": 1
                 },
                 "Thermal Visor": {
                     "num_shuffled_pickups": 1
@@ -94,7 +95,7 @@
                     ]
                 },
                 "Power Suit": {
-                    "num_included_in_starting_items": 1
+                    "num_included_in_starting_pickups": 1
                 },
                 "Varia Suit": {
                     "num_shuffled_pickups": 1
@@ -118,25 +119,25 @@
                     "num_shuffled_pickups": 1
                 }
             },
-            "default_items": {},
-            "minimum_random_starting_items": 0,
-            "maximum_random_starting_items": 0
+            "default_pickups": {},
+            "minimum_random_starting_pickups": 0,
+            "maximum_random_starting_pickups": 0
         },
-        "ammo_configuration": {
-            "items_state": {
+        "ammo_pickup_configuration": {
+            "pickups_state": {
                 "Missile Expansion": {
                     "ammo_count": [
                         5
                     ],
                     "pickup_count": 49,
-                    "requires_major_item": false
+                    "requires_main_item": false
                 },
                 "Power Bomb Expansion": {
                     "ammo_count": [
                         1
                     ],
                     "pickup_count": 4,
-                    "requires_major_item": false
+                    "requires_main_item": false
                 }
             }
         },
@@ -159,8 +160,8 @@
                         "Wave Door"
                     ],
                     "can_change_to": [
-                        "Bomb Door",
-                        "Charge Beam Door",
+                        "Bomb Blast Shield",
+                        "Charge Beam Blast Shield",
                         "Flamethrower Blast Shield",
                         "Ice Door",
                         "Ice Spreader Blast Shield",
@@ -173,41 +174,34 @@
                         "Wave Door",
                         "Wavebuster Blast Shield"
                     ]
-                },
-                "morph_ball": {
-                    "can_change_from": [],
-                    "can_change_to": []
-                },
-                "other": {
-                    "can_change_from": [],
-                    "can_change_to": []
                 }
             }
         },
-        "single_set_for_pickups_that_solve": false,
-        "staggered_multi_pickup_placement": false,
-        "elevators": {
+        "single_set_for_pickups_that_solve": true,
+        "staggered_multi_pickup_placement": true,
+        "check_if_beatable_after_base_patches": false,
+        "teleporters": {
             "mode": "vanilla",
             "excluded_teleporters": [
                 {
-                    "world_name": "Frigate Orpheon",
-                    "area_name": "Exterior Docking Hangar",
-                    "node_name": "Teleport to Landing Site"
+                    "region": "Frigate Orpheon",
+                    "area": "Exterior Docking Hangar",
+                    "node": "Teleporter to Tallon Overworld"
                 },
                 {
-                    "world_name": "Impact Crater",
-                    "area_name": "Crater Entry Point",
-                    "node_name": "Teleport to Artifact Temple"
+                    "region": "Impact Crater",
+                    "area": "Crater Entry Point",
+                    "node": "Teleporter to Tallon Overworld"
                 },
                 {
-                    "world_name": "Impact Crater",
-                    "area_name": "Metroid Prime Lair",
-                    "node_name": "Teleporter to Credits"
+                    "region": "Impact Crater",
+                    "area": "Metroid Prime Lair",
+                    "node": "Teleporter to Credits"
                 },
                 {
-                    "world_name": "Tallon Overworld",
-                    "area_name": "Artifact Temple",
-                    "node_name": "Teleport to Impact Crater - Crater Impact Point"
+                    "region": "Tallon Overworld",
+                    "area": "Artifact Temple",
+                    "node": "Teleporter to Impact Crater"
                 }
             ],
             "excluded_targets": [],
@@ -220,10 +214,9 @@
         },
         "energy_per_tank": 100,
         "artifact_target": 6,
-        "artifact_minimum_progression": 9,
+        "artifact_minimum_progression": 0,
         "heat_damage": 10.0,
         "warp_to_start": true,
-        "heat_protection_only_varia": true,
         "progressive_damage_reduction": false,
         "allow_underwater_movement_without_gravity": false,
         "small_samus": false,
@@ -236,8 +229,6 @@
         "submerged_probability": 0,
         "room_rando": "None",
         "spring_ball": false,
-        "deterministic_idrone": true,
-        "deterministic_maze": true,
         "main_plaza_door": true,
         "blue_save_doors": false,
         "backwards_frigate": true,
@@ -245,8 +236,7 @@
         "backwards_upper_mines": true,
         "backwards_lower_mines": false,
         "phazon_elite_without_dynamo": true,
-        "qol_game_breaking": true,
-        "qol_pickup_scans": true,
+        "legacy_mode": false,
         "qol_cutscenes": "competitive",
         "enemy_attributes": null
     }

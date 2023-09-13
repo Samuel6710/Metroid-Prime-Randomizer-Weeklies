@@ -1,24 +1,29 @@
 {
     "schema_version": 63,
     "base_preset_uuid": null,
-    "name": "Even Weekly Settings (September 2023)",
-    "uuid": "99f0542d-c038-4ac4-97f7-e1089972b7c3",
-    "description": "Even week settings for the Metroid Prime Randomizer Community Weekly Races.",
+    "name": "Hard Weekly Settings (September 2023)",
+    "uuid": "3d644ff9-201d-44fc-b675-38acbf87e5ab",
+    "description": "Hard week settings for the Metroid Prime Randomizer Community Weekly Races.",
     "game": "prime1",
     "configuration": {
         "trick_level": {
             "minimal_logic": false,
             "specific_levels": {
-                "BJ": "beginner",
-                "Combat": "beginner",
-                "Dash": "beginner",
-                "Knowledge": "beginner",
-                "LJump": "beginner",
-                "Movement": "beginner",
-                "RJump": "beginner",
-                "SJump": "beginner",
-                "Standable": "beginner",
-                "UnderwaterMovement": "beginner"
+                "BJ": "intermediate",
+                "BSJ": "beginner",
+                "CBJ": "intermediate",
+                "ClipThruObjects": "beginner",
+                "Combat": "advanced",
+                "Dash": "advanced",
+                "HeatRun": "beginner",
+                "Knowledge": "intermediate",
+                "LJump": "advanced",
+                "Movement": "intermediate",
+                "RJump": "advanced",
+                "SJump": "advanced",
+                "StandEnemies": "beginner",
+                "Standable": "advanced",
+                "UnderwaterMovement": "intermediate"
             }
         },
         "starting_location": [
@@ -1270,7 +1275,7 @@
                 }
             },
             "default_pickups": {},
-            "minimum_random_starting_pickups": 1,
+            "minimum_random_starting_pickups": 0,
             "maximum_random_starting_pickups": 3
         },
         "ammo_pickup_configuration": {
@@ -1334,9 +1339,24 @@
             "mode": "randomized",
             "excluded_teleporters": [
                 {
+                    "region": "Frigate Orpheon",
+                    "area": "Exterior Docking Hangar",
+                    "node": "Teleporter to Tallon Overworld"
+                },
+                {
                     "region": "Impact Crater",
                     "area": "Crater Entry Point",
                     "node": "Teleporter to Tallon Overworld"
+                },
+                {
+                    "region": "Impact Crater",
+                    "area": "Metroid Prime Lair",
+                    "node": "Teleporter to Credits"
+                },
+                {
+                    "region": "Tallon Overworld",
+                    "area": "Artifact Temple",
+                    "node": "Teleporter to Impact Crater"
                 }
             ],
             "excluded_targets": [],
@@ -1348,12 +1368,12 @@
             "phazon_suit": "hide-area"
         },
         "energy_per_tank": 100,
-        "artifact_target": 6,
-        "artifact_minimum_progression": 9,
+        "artifact_target": 9,
+        "artifact_minimum_progression": 6,
         "heat_damage": 10.0,
         "warp_to_start": true,
-        "progressive_damage_reduction": false,
-        "allow_underwater_movement_without_gravity": false,
+        "progressive_damage_reduction": true,
+        "allow_underwater_movement_without_gravity": true,
         "small_samus": false,
         "large_samus": false,
         "shuffle_item_pos": false,
@@ -1365,7 +1385,7 @@
         "room_rando": "None",
         "spring_ball": false,
         "main_plaza_door": true,
-        "blue_save_doors": false,
+        "blue_save_doors": true,
         "backwards_frigate": true,
         "backwards_labs": true,
         "backwards_upper_mines": true,
