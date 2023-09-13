@@ -1,9 +1,9 @@
 {
-    "schema_version": 43,
+    "schema_version": 63,
     "base_preset_uuid": null,
-    "name": "Odd Weekly Settings (February 2023)",
+    "name": "Odd Weekly Settings (September 2023)",
     "uuid": "072aab5c-8b13-472a-90b3-d5ac5cce3dbe",
-    "description": "The preset for Echoes odd-week settings.",
+    "description": "Odd week settings for the Metroid Prime 2 Echoes Randomizer Community Weekly Races.",
     "game": "prime2",
     "configuration": {
         "trick_level": {
@@ -21,1089 +21,1357 @@
         },
         "starting_location": [
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Agon Energy Controller"
+                "region": "Agon Wastes",
+                "area": "Agon Energy Controller",
+                "node": "Door to Controller Access"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Agon Map Station"
+                "region": "Agon Wastes",
+                "area": "Agon Map Station",
+                "node": "Morph Ball Door to Mining Plaza"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Agon Temple"
+                "region": "Agon Wastes",
+                "area": "Agon Temple",
+                "node": "Door to Temple Access"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Battleground"
+                "region": "Agon Wastes",
+                "area": "Battleground",
+                "node": "Door to Double Path (Bottom)"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Bioenergy Production"
+                "region": "Agon Wastes",
+                "area": "Bioenergy Production",
+                "node": "Door to Security Station A"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Biostorage Access"
+                "region": "Agon Wastes",
+                "area": "Biostorage Access",
+                "node": "Door to Command Center"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Biostorage Station"
+                "region": "Agon Wastes",
+                "area": "Biostorage Station",
+                "node": "Door to Biostorage Access"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Bitter Well"
+                "region": "Agon Wastes",
+                "area": "Bitter Well",
+                "node": "Door to Phazon Site"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Central Mining Station"
+                "region": "Agon Wastes",
+                "area": "Central Mining Station",
+                "node": "Door to Central Station Access"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Central Station Access"
+                "region": "Agon Wastes",
+                "area": "Central Station Access",
+                "node": "Door to Mining Station A"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Command Center"
+                "region": "Agon Wastes",
+                "area": "Command Center",
+                "node": "Morph Ball Door to Command Center Access"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Command Center Access"
+                "region": "Agon Wastes",
+                "area": "Command Center Access",
+                "node": "Door to Central Mining Station (Bottom)"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Controller Access"
+                "region": "Agon Wastes",
+                "area": "Controller Access",
+                "node": "Door to Agon Temple"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Crossroads"
+                "region": "Agon Wastes",
+                "area": "Crossroads",
+                "node": "Door to Portal Site"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Dark Agon Energy Controller"
+                "region": "Agon Wastes",
+                "area": "Dark Agon Energy Controller",
+                "node": "Door to Dark Controller Access"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Dark Agon Temple"
+                "region": "Agon Wastes",
+                "area": "Dark Agon Temple",
+                "node": "Door to Dark Agon Temple Access"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Dark Agon Temple Access"
+                "region": "Agon Wastes",
+                "area": "Dark Agon Temple Access",
+                "node": "Door to Judgment Pit"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Dark Controller Access"
+                "region": "Agon Wastes",
+                "area": "Dark Controller Access",
+                "node": "Door to Dark Agon Temple"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Dark Oasis"
+                "region": "Agon Wastes",
+                "area": "Dark Oasis",
+                "node": "Door to Oasis Access"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Dark Transit Station"
+                "region": "Agon Wastes",
+                "area": "Dark Transit Station",
+                "node": "Door to Trial Grounds"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Doomed Entry"
+                "region": "Agon Wastes",
+                "area": "Doomed Entry",
+                "node": "Portal from Command Center"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Double Path"
+                "region": "Agon Wastes",
+                "area": "Double Path",
+                "node": "Door to Doomed Entry (Bottom)"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Duelling Range"
+                "region": "Agon Wastes",
+                "area": "Duelling Range",
+                "node": "Door to Save Station 2"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Feeding Pit"
+                "region": "Agon Wastes",
+                "area": "Feeding Pit",
+                "node": "Door to Watering Hole"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Feeding Pit Access"
+                "region": "Agon Wastes",
+                "area": "Feeding Pit Access",
+                "node": "Spawn Point"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Hall of Stairs"
+                "region": "Agon Wastes",
+                "area": "Hall of Stairs",
+                "node": "Door to Dark Oasis"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Ing Cache 1"
+                "region": "Agon Wastes",
+                "area": "Ing Cache 1",
+                "node": "Door to Feeding Pit"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Ing Cache 2"
+                "region": "Agon Wastes",
+                "area": "Ing Cache 2",
+                "node": "Door to Phazon Site"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Ing Cache 3"
+                "region": "Agon Wastes",
+                "area": "Ing Cache 3",
+                "node": "Door to Dark Oasis"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Ing Cache 4"
+                "region": "Agon Wastes",
+                "area": "Ing Cache 4",
+                "node": "Door to Duelling Range"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Judgment Pit"
+                "region": "Agon Wastes",
+                "area": "Judgment Pit",
+                "node": "Door to Junction Site"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Junction Site"
+                "region": "Agon Wastes",
+                "area": "Junction Site",
+                "node": "Door to Duelling Range"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Main Reactor"
+                "region": "Agon Wastes",
+                "area": "Main Reactor",
+                "node": "Door to Sand Processing"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Mine Shaft"
+                "region": "Agon Wastes",
+                "area": "Mine Shaft",
+                "node": "Door to Mining Station B"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Mining Plaza"
+                "region": "Agon Wastes",
+                "area": "Mining Plaza",
+                "node": "Door to Plaza Access"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Mining Station A"
+                "region": "Agon Wastes",
+                "area": "Mining Station A",
+                "node": "Door to Mining Station Access"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Mining Station Access"
+                "region": "Agon Wastes",
+                "area": "Mining Station Access",
+                "node": "Door to Mining Plaza"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Mining Station B"
+                "region": "Agon Wastes",
+                "area": "Mining Station B",
+                "node": "Door to Transit Station"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Oasis Access"
+                "region": "Agon Wastes",
+                "area": "Oasis Access",
+                "node": "Door to Doomed Entry"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Phazon Site"
+                "region": "Agon Wastes",
+                "area": "Phazon Site",
+                "node": "Door to Bitter Well"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Plaza Access"
+                "region": "Agon Wastes",
+                "area": "Plaza Access",
+                "node": "Door to Transport to Temple Grounds"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Portal Access"
+                "region": "Agon Wastes",
+                "area": "Portal Access",
+                "node": "Door to Judgment Pit"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Portal Access A"
+                "region": "Agon Wastes",
+                "area": "Portal Access A",
+                "node": "Door to Mining Station A"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Portal Site"
+                "region": "Agon Wastes",
+                "area": "Portal Site",
+                "node": "Portal to Portal Terminal"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Portal Terminal"
+                "region": "Agon Wastes",
+                "area": "Portal Terminal",
+                "node": "Door to Portal Access A"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Sand Cache"
+                "region": "Agon Wastes",
+                "area": "Sand Cache",
+                "node": "Door to Mining Station A"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Sand Processing"
+                "region": "Agon Wastes",
+                "area": "Sand Processing",
+                "node": "Door to Save Station C"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Sandcanyon"
+                "region": "Agon Wastes",
+                "area": "Sandcanyon",
+                "node": "Door to Agon Temple"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Save Station 1"
+                "region": "Agon Wastes",
+                "area": "Save Station 1",
+                "node": "Save Station"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Save Station 2"
+                "region": "Agon Wastes",
+                "area": "Save Station 2",
+                "node": "Save Station"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Save Station 3"
+                "region": "Agon Wastes",
+                "area": "Save Station 3",
+                "node": "Save Station"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Save Station A"
+                "region": "Agon Wastes",
+                "area": "Save Station A",
+                "node": "Save Station"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Save Station C"
+                "region": "Agon Wastes",
+                "area": "Save Station C",
+                "node": "Save Station"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Security Station A"
+                "region": "Agon Wastes",
+                "area": "Security Station A",
+                "node": "Door to Biostorage Station"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Security Station B"
+                "region": "Agon Wastes",
+                "area": "Security Station B",
+                "node": "Door to Command Center (First)"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Storage A"
+                "region": "Agon Wastes",
+                "area": "Storage A",
+                "node": "Door to Mining Station B"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Storage B"
+                "region": "Agon Wastes",
+                "area": "Storage B",
+                "node": "Door to Biostorage Station"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Storage C"
+                "region": "Agon Wastes",
+                "area": "Storage C",
+                "node": "Door to Bioenergy Production"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Storage D"
+                "region": "Agon Wastes",
+                "area": "Storage D",
+                "node": "Door to Main Reactor"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Temple Access"
+                "region": "Agon Wastes",
+                "area": "Temple Access",
+                "node": "Door to Mining Station A"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Transit Station"
+                "region": "Agon Wastes",
+                "area": "Transit Station",
+                "node": "Door to Mining Plaza"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Transport Center"
+                "region": "Agon Wastes",
+                "area": "Transport Center",
+                "node": "Portal to Crossroads"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Transport to Sanctuary Fortress"
+                "region": "Agon Wastes",
+                "area": "Transport to Sanctuary Fortress",
+                "node": "Elevator to Sanctuary Fortress"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Transport to Temple Grounds"
+                "region": "Agon Wastes",
+                "area": "Transport to Temple Grounds",
+                "node": "Elevator to Temple Grounds"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Transport to Torvus Bog"
+                "region": "Agon Wastes",
+                "area": "Transport to Torvus Bog",
+                "node": "Elevator to Torvus Bog"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Trial Grounds"
+                "region": "Agon Wastes",
+                "area": "Trial Grounds",
+                "node": "Spawn Point"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Trial Tunnel"
+                "region": "Agon Wastes",
+                "area": "Trial Tunnel",
+                "node": "Door to Dark Agon Temple"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Ventilation Area A"
+                "region": "Agon Wastes",
+                "area": "Ventilation Area A",
+                "node": "Door to Main Reactor"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Ventilation Area B"
+                "region": "Agon Wastes",
+                "area": "Ventilation Area B",
+                "node": "Door to Bioenergy Production"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Warrior's Walk"
+                "region": "Agon Wastes",
+                "area": "Warrior's Walk",
+                "node": "Door to Judgment Pit"
             },
             {
-                "world_name": "Agon Wastes",
-                "area_name": "Watering Hole"
+                "region": "Agon Wastes",
+                "area": "Watering Hole",
+                "node": "Door to Phazon Site"
             },
             {
-                "world_name": "Great Temple",
-                "area_name": "Controller Transport"
+                "region": "Great Temple",
+                "area": "Controller Transport",
+                "node": "Door to Main Energy Controller"
             },
             {
-                "world_name": "Great Temple",
-                "area_name": "Main Energy Controller"
+                "region": "Great Temple",
+                "area": "Main Energy Controller",
+                "node": "Door to Controller Transport"
             },
             {
-                "world_name": "Great Temple",
-                "area_name": "Temple Sanctuary"
+                "region": "Great Temple",
+                "area": "Temple Sanctuary",
+                "node": "Door to Transport A Access"
             },
             {
-                "world_name": "Great Temple",
-                "area_name": "Temple Transport A"
+                "region": "Great Temple",
+                "area": "Temple Transport A",
+                "node": "Elevator to Temple Grounds"
             },
             {
-                "world_name": "Great Temple",
-                "area_name": "Temple Transport B"
+                "region": "Great Temple",
+                "area": "Temple Transport B",
+                "node": "Elevator to Temple Grounds"
             },
             {
-                "world_name": "Great Temple",
-                "area_name": "Temple Transport C"
+                "region": "Great Temple",
+                "area": "Temple Transport C",
+                "node": "Elevator to Temple Grounds"
             },
             {
-                "world_name": "Great Temple",
-                "area_name": "Transport A Access"
+                "region": "Great Temple",
+                "area": "Transport A Access",
+                "node": "Save Station"
             },
             {
-                "world_name": "Great Temple",
-                "area_name": "Transport B Access"
+                "region": "Great Temple",
+                "area": "Transport B Access",
+                "node": "Door to Temple Sanctuary"
             },
             {
-                "world_name": "Great Temple",
-                "area_name": "Transport C Access"
+                "region": "Great Temple",
+                "area": "Transport C Access",
+                "node": "Door to Temple Sanctuary"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Aerial Training Site"
+                "region": "Sanctuary Fortress",
+                "area": "Aerial Training Site",
+                "node": "Door to Judgment Drop"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Aerie"
+                "region": "Sanctuary Fortress",
+                "area": "Aerie",
+                "node": "Dock to Aerie Access"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Aerie Transport Station"
+                "region": "Sanctuary Fortress",
+                "area": "Aerie Transport Station",
+                "node": "Door to Checkpoint Station"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Agon Transport Access"
+                "region": "Sanctuary Fortress",
+                "area": "Agon Transport Access",
+                "node": "Door to Hall of Combat Mastery"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Central Area Transport East"
+                "region": "Sanctuary Fortress",
+                "area": "Central Area Transport East",
+                "node": "Door to Dynamo Works"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Central Area Transport West"
+                "region": "Sanctuary Fortress",
+                "area": "Central Area Transport West",
+                "node": "Door to Main Research"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Central Hive East Transport"
+                "region": "Sanctuary Fortress",
+                "area": "Central Hive East Transport",
+                "node": "Door to Hive Dynamo Works"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Central Hive West Transport"
+                "region": "Sanctuary Fortress",
+                "area": "Central Hive West Transport",
+                "node": "Door to Staging Area"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Checkpoint Station"
+                "region": "Sanctuary Fortress",
+                "area": "Checkpoint Station",
+                "node": "Door to Main Gyro Chamber"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Controller Access"
+                "region": "Sanctuary Fortress",
+                "area": "Controller Access",
+                "node": "Door to Sanctuary Temple"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Culling Chamber"
+                "region": "Sanctuary Fortress",
+                "area": "Culling Chamber",
+                "node": "Portal to Hall of Combat Mastery"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Dynamo Access"
+                "region": "Sanctuary Fortress",
+                "area": "Dynamo Access",
+                "node": "Door to Dynamo Works"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Dynamo Storage"
+                "region": "Sanctuary Fortress",
+                "area": "Dynamo Storage",
+                "node": "Door to Dynamo Works"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Dynamo Works"
+                "region": "Sanctuary Fortress",
+                "area": "Dynamo Works",
+                "node": "Door to Workers Path"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Entrance Defense Hall"
+                "region": "Sanctuary Fortress",
+                "area": "Entrance Defense Hall",
+                "node": "Door to Hive Entrance"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Grand Abyss"
+                "region": "Sanctuary Fortress",
+                "area": "Grand Abyss",
+                "node": "Door to Watch Station"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hall of Combat Mastery"
+                "region": "Sanctuary Fortress",
+                "area": "Hall of Combat Mastery",
+                "node": "Door to Minigyro Chamber"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hazing Cliff"
+                "region": "Sanctuary Fortress",
+                "area": "Hazing Cliff",
+                "node": "Door to Culling Chamber"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Ammo Station"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Ammo Station",
+                "node": "Spawn Point"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Cache 1"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Cache 1",
+                "node": "Door to Hive Reactor"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Cache 3"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Cache 3",
+                "node": "Door to Hive Dynamo Works"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Controller Access"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Controller Access",
+                "node": "Door to Hive Temple"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Dynamo Access"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Dynamo Access",
+                "node": "Door to Hive Dynamo Works"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Dynamo Works"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Dynamo Works",
+                "node": "Door to Central Hive East Transport"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Energy Controller"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Energy Controller",
+                "node": "Door to Hive Controller Access"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Entrance"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Entrance",
+                "node": "Door to Entrance Defense Hall"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Gyro Access"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Gyro Access",
+                "node": "Door to Hive Gyro Chamber"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Gyro Chamber"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Gyro Chamber",
+                "node": "Door to Hive Dynamo Access"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Portal Chamber"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Portal Chamber",
+                "node": "Front of Portal to Transit Station (Second)"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Reactor"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Reactor",
+                "node": "Door to Hive Save Station 1"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Reactor Access"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Reactor Access",
+                "node": "Door to Entrance Defense Hall"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Save Station 1"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Save Station 1",
+                "node": "Save Station"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Save Station 2"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Save Station 2",
+                "node": "Save Station"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Summit"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Summit",
+                "node": "Portal from Aerie"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Temple"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Temple",
+                "node": "Door to Hive Temple Access"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Hive Temple Access"
+                "region": "Sanctuary Fortress",
+                "area": "Hive Temple Access",
+                "node": "Spawn Point"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Judgment Drop"
+                "region": "Sanctuary Fortress",
+                "area": "Judgment Drop",
+                "node": "Spawn Point"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Main Gyro Chamber"
+                "region": "Sanctuary Fortress",
+                "area": "Main Gyro Chamber",
+                "node": "Door to Dynamo Access"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Main Research"
+                "region": "Sanctuary Fortress",
+                "area": "Main Research",
+                "node": "Door to Torvus Transport Access"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Minigyro Chamber"
+                "region": "Sanctuary Fortress",
+                "area": "Minigyro Chamber",
+                "node": "Door to Reactor Core"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Power Junction"
+                "region": "Sanctuary Fortress",
+                "area": "Power Junction",
+                "node": "Door to Sanctuary Entrance"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Reactor Access"
+                "region": "Sanctuary Fortress",
+                "area": "Reactor Access",
+                "node": "Door to Power Junction"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Reactor Core"
+                "region": "Sanctuary Fortress",
+                "area": "Reactor Core",
+                "node": "Door to Reactor Access"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Sanctuary Energy Controller"
+                "region": "Sanctuary Fortress",
+                "area": "Sanctuary Energy Controller",
+                "node": "Door to Controller Access"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Sanctuary Entrance"
+                "region": "Sanctuary Fortress",
+                "area": "Sanctuary Entrance",
+                "node": "Door to Temple Transport Access"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Sanctuary Map Station"
+                "region": "Sanctuary Fortress",
+                "area": "Sanctuary Map Station",
+                "node": "Door to Reactor Core"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Sanctuary Temple"
+                "region": "Sanctuary Fortress",
+                "area": "Sanctuary Temple",
+                "node": "Door to Temple Access"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Save Station A"
+                "region": "Sanctuary Fortress",
+                "area": "Save Station A",
+                "node": "Save Station"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Save Station B"
+                "region": "Sanctuary Fortress",
+                "area": "Save Station B",
+                "node": "Save Station"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Sentinel's Path"
+                "region": "Sanctuary Fortress",
+                "area": "Sentinel's Path",
+                "node": "Door to Watch Station"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Staging Area"
+                "region": "Sanctuary Fortress",
+                "area": "Staging Area",
+                "node": "Portal to Main Research (Upper)"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Temple Access"
+                "region": "Sanctuary Fortress",
+                "area": "Temple Access",
+                "node": "Door to Main Gyro Chamber"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Temple Security Access"
+                "region": "Sanctuary Fortress",
+                "area": "Temple Security Access",
+                "node": "Door to Aerial Training Site"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Temple Transport Access"
+                "region": "Sanctuary Fortress",
+                "area": "Temple Transport Access",
+                "node": "Door to Transport to Temple Grounds"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Torvus Transport Access"
+                "region": "Sanctuary Fortress",
+                "area": "Torvus Transport Access",
+                "node": "Door to Main Research"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Transit Station"
+                "region": "Sanctuary Fortress",
+                "area": "Transit Station",
+                "node": "Door to Reactor Core"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Transport to Agon Wastes"
+                "region": "Sanctuary Fortress",
+                "area": "Transport to Agon Wastes",
+                "node": "Elevator to Agon Wastes"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Transport to Temple Grounds"
+                "region": "Sanctuary Fortress",
+                "area": "Transport to Temple Grounds",
+                "node": "Elevator to Temple Grounds"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Transport to Torvus Bog"
+                "region": "Sanctuary Fortress",
+                "area": "Transport to Torvus Bog",
+                "node": "Elevator to Torvus Bog"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Unseen Way"
+                "region": "Sanctuary Fortress",
+                "area": "Unseen Way",
+                "node": "Door to Culling Chamber"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Vault"
+                "region": "Sanctuary Fortress",
+                "area": "Vault",
+                "node": "Door to Grand Abyss"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Vault Attack Portal"
+                "region": "Sanctuary Fortress",
+                "area": "Vault Attack Portal",
+                "node": "Portal to Vault (Light)"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Watch Station"
+                "region": "Sanctuary Fortress",
+                "area": "Watch Station",
+                "node": "Door to Central Area Transport West"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Watch Station Access"
+                "region": "Sanctuary Fortress",
+                "area": "Watch Station Access",
+                "node": "Door to Watch Station"
             },
             {
-                "world_name": "Sanctuary Fortress",
-                "area_name": "Workers Path"
+                "region": "Sanctuary Fortress",
+                "area": "Workers Path",
+                "node": "Door to Dynamo Works"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Abandoned Base"
+                "region": "Temple Grounds",
+                "area": "Abandoned Base",
+                "node": "Door to Base Access"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Accursed Lake"
+                "region": "Temple Grounds",
+                "area": "Accursed Lake",
+                "node": "Spawn Point"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Agon Transport Access"
+                "region": "Temple Grounds",
+                "area": "Agon Transport Access",
+                "node": "Door to Industrial Site"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Base Access"
+                "region": "Temple Grounds",
+                "area": "Base Access",
+                "node": "Door to War Ritual Grounds"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Collapsed Tunnel"
+                "region": "Temple Grounds",
+                "area": "Collapsed Tunnel",
+                "node": "Door to Industrial Site"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Command Chamber"
+                "region": "Temple Grounds",
+                "area": "Command Chamber",
+                "node": "Door to Hive Tunnel"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Communication Area"
+                "region": "Temple Grounds",
+                "area": "Communication Area",
+                "node": "Door to Dynamo Chamber"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Defiled Shrine"
+                "region": "Temple Grounds",
+                "area": "Defiled Shrine",
+                "node": "Door to Shrine Access"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Dynamo Chamber"
+                "region": "Temple Grounds",
+                "area": "Dynamo Chamber",
+                "node": "Door to Temple Assembly Site"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Fortress Transport Access"
+                "region": "Temple Grounds",
+                "area": "Fortress Transport Access",
+                "node": "Door to GFMC Compound"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "GFMC Compound"
+                "region": "Temple Grounds",
+                "area": "GFMC Compound",
+                "node": "Door to Trooper Security Station"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Gateway Access"
+                "region": "Temple Grounds",
+                "area": "Gateway Access",
+                "node": "Door to Shrine Access"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Grand Windchamber"
+                "region": "Temple Grounds",
+                "area": "Grand Windchamber",
+                "node": "Door to Windchamber Gateway"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Hall of Eyes"
+                "region": "Temple Grounds",
+                "area": "Hall of Eyes",
+                "node": "Door to Meeting Grounds"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Hall of Honored Dead"
+                "region": "Temple Grounds",
+                "area": "Hall of Honored Dead",
+                "node": "Door to Path of Honor"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Hive Access Tunnel"
+                "region": "Temple Grounds",
+                "area": "Hive Access Tunnel",
+                "node": "Door to Landing Site"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Hive Chamber A"
+                "region": "Temple Grounds",
+                "area": "Hive Chamber A",
+                "node": "Dock to Hive Access Tunnel"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Hive Chamber B"
+                "region": "Temple Grounds",
+                "area": "Hive Chamber B",
+                "node": "Door to Hive Storage"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Hive Chamber C"
+                "region": "Temple Grounds",
+                "area": "Hive Chamber C",
+                "node": "Morph Ball Door to Hive Chamber B"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Hive Save Station"
+                "region": "Temple Grounds",
+                "area": "Hive Save Station",
+                "node": "Save Station"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Hive Storage"
+                "region": "Temple Grounds",
+                "area": "Hive Storage",
+                "node": "Door to Command Chamber"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Hive Transport Area"
+                "region": "Temple Grounds",
+                "area": "Hive Transport Area",
+                "node": "Door to Hive Chamber C"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Hive Tunnel"
+                "region": "Temple Grounds",
+                "area": "Hive Tunnel",
+                "node": "Door to Hive Chamber A"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Industrial Site"
+                "region": "Temple Grounds",
+                "area": "Industrial Site",
+                "node": "Door to Hive Transport Area"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Ing Reliquary"
+                "region": "Temple Grounds",
+                "area": "Ing Reliquary",
+                "node": "Door to Reliquary Grounds"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Ing Windchamber"
+                "region": "Temple Grounds",
+                "area": "Ing Windchamber",
+                "node": "Portal to Grand Windchamber"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Lake Access"
+                "region": "Temple Grounds",
+                "area": "Lake Access",
+                "node": "Door to Accursed Lake"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Landing Site"
+                "region": "Temple Grounds",
+                "area": "Landing Site",
+                "node": "Save Station"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Meeting Grounds"
+                "region": "Temple Grounds",
+                "area": "Meeting Grounds",
+                "node": "Door to Service Access"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Path of Eyes"
+                "region": "Temple Grounds",
+                "area": "Path of Eyes",
+                "node": "Portal from Abandoned Base"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Path of Honor"
+                "region": "Temple Grounds",
+                "area": "Path of Honor",
+                "node": "Door to Service Access"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Phazon Grounds"
+                "region": "Temple Grounds",
+                "area": "Phazon Grounds",
+                "node": "Door to Reliquary Access"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Phazon Pit"
+                "region": "Temple Grounds",
+                "area": "Phazon Pit",
+                "node": "Door to Phazon Grounds"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Plain of Dark Worship"
+                "region": "Temple Grounds",
+                "area": "Plain of Dark Worship",
+                "node": "Door to Lake Access"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Profane Path"
+                "region": "Temple Grounds",
+                "area": "Profane Path",
+                "node": "Door to Phazon Pit"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Reliquary Access"
+                "region": "Temple Grounds",
+                "area": "Reliquary Access",
+                "node": "Door to Phazon Grounds"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Reliquary Grounds"
+                "region": "Temple Grounds",
+                "area": "Reliquary Grounds",
+                "node": "Door to Reliquary Access"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Sacred Bridge"
+                "region": "Temple Grounds",
+                "area": "Sacred Bridge",
+                "node": "Door to GFMC Compound"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Sacred Path"
+                "region": "Temple Grounds",
+                "area": "Sacred Path",
+                "node": "Door to Sacred Bridge"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Service Access"
+                "region": "Temple Grounds",
+                "area": "Service Access",
+                "node": "Door to Landing Site"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Shrine Access"
+                "region": "Temple Grounds",
+                "area": "Shrine Access",
+                "node": "Door to Defiled Shrine"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Sky Temple Gateway"
+                "region": "Temple Grounds",
+                "area": "Sky Temple Gateway",
+                "node": "Spawn Point/Front of Teleporter"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Storage Cavern A"
+                "region": "Temple Grounds",
+                "area": "Storage Cavern A",
+                "node": "Door to Communication Area"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Storage Cavern B"
+                "region": "Temple Grounds",
+                "area": "Storage Cavern B",
+                "node": "Door to Temple Assembly Site"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Temple Assembly Site"
+                "region": "Temple Grounds",
+                "area": "Temple Assembly Site",
+                "node": "Door to Collapsed Tunnel"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Temple Transport A"
+                "region": "Temple Grounds",
+                "area": "Temple Transport A",
+                "node": "Elevator to Great Temple"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Temple Transport B"
+                "region": "Temple Grounds",
+                "area": "Temple Transport B",
+                "node": "Elevator to Great Temple"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Temple Transport C"
+                "region": "Temple Grounds",
+                "area": "Temple Transport C",
+                "node": "Elevator to Great Temple"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Torvus Transport Access"
+                "region": "Temple Grounds",
+                "area": "Torvus Transport Access",
+                "node": "Door to Path of Eyes"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Transport to Agon Wastes"
+                "region": "Temple Grounds",
+                "area": "Transport to Agon Wastes",
+                "node": "Elevator to Agon Wastes"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Transport to Sanctuary Fortress"
+                "region": "Temple Grounds",
+                "area": "Transport to Sanctuary Fortress",
+                "node": "Elevator to Sanctuary Fortress"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Transport to Torvus Bog"
+                "region": "Temple Grounds",
+                "area": "Transport to Torvus Bog",
+                "node": "Elevator to Torvus Bog"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Trooper Security Station"
+                "region": "Temple Grounds",
+                "area": "Trooper Security Station",
+                "node": "Door to Communication Area"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "War Ritual Grounds"
+                "region": "Temple Grounds",
+                "area": "War Ritual Grounds",
+                "node": "Door to Shrine Access"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Windchamber Gateway"
+                "region": "Temple Grounds",
+                "area": "Windchamber Gateway",
+                "node": "Door to Path of Eyes"
             },
             {
-                "world_name": "Temple Grounds",
-                "area_name": "Windchamber Tunnel"
+                "region": "Temple Grounds",
+                "area": "Windchamber Tunnel",
+                "node": "Door to GFMC Compound"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Abandoned Worksite"
+                "region": "Torvus Bog",
+                "area": "Abandoned Worksite",
+                "node": "Door to Forgotten Bridge"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Ammo Station"
+                "region": "Torvus Bog",
+                "area": "Ammo Station",
+                "node": "Door to Dark Torvus Temple"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Brooding Ground"
+                "region": "Torvus Bog",
+                "area": "Brooding Ground",
+                "node": "Door to Dark Forgotten Bridge"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Cache A"
+                "region": "Torvus Bog",
+                "area": "Cache A",
+                "node": "Door to Poisoned Bog"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Cache B"
+                "region": "Torvus Bog",
+                "area": "Cache B",
+                "node": "Door to Dark Torvus Temple"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Catacombs"
+                "region": "Torvus Bog",
+                "area": "Catacombs",
+                "node": "Door to Transit Tunnel East"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Catacombs Access"
+                "region": "Torvus Bog",
+                "area": "Catacombs Access",
+                "node": "Door to Catacombs"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Controller Access"
+                "region": "Torvus Bog",
+                "area": "Controller Access",
+                "node": "Door to Torvus Temple"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Crypt"
+                "region": "Torvus Bog",
+                "area": "Crypt",
+                "node": "Portal to Gathering Hall"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Crypt Tunnel"
+                "region": "Torvus Bog",
+                "area": "Crypt Tunnel",
+                "node": "Door to Undertemple Shaft"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Dark Arena Tunnel"
+                "region": "Torvus Bog",
+                "area": "Dark Arena Tunnel",
+                "node": "Door to Dark Forgotten Bridge"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Dark Controller Access"
+                "region": "Torvus Bog",
+                "area": "Dark Controller Access",
+                "node": "Door to Dark Torvus Temple"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Dark Falls"
+                "region": "Torvus Bog",
+                "area": "Dark Falls",
+                "node": "Save Station"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Dark Forgotten Bridge"
+                "region": "Torvus Bog",
+                "area": "Dark Forgotten Bridge",
+                "node": "Door to Putrid Alcove"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Dark Torvus Arena"
+                "region": "Torvus Bog",
+                "area": "Dark Torvus Arena",
+                "node": "Door to Dark Arena Tunnel"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Dark Torvus Energy Controller"
+                "region": "Torvus Bog",
+                "area": "Dark Torvus Energy Controller",
+                "node": "Door to Dark Controller Access"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Dark Torvus Temple"
+                "region": "Torvus Bog",
+                "area": "Dark Torvus Temple",
+                "node": "Central Safe Zone (Top)"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Dark Torvus Temple Access"
+                "region": "Torvus Bog",
+                "area": "Dark Torvus Temple Access",
+                "node": "Door to Venomous Pond"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Dungeon"
+                "region": "Torvus Bog",
+                "area": "Dungeon",
+                "node": "Spawn Point"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Forgotten Bridge"
+                "region": "Torvus Bog",
+                "area": "Forgotten Bridge",
+                "node": "Door to Ruined Alcove"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Fortress Transport Access"
+                "region": "Torvus Bog",
+                "area": "Fortress Transport Access",
+                "node": "Door to Training Chamber"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Gathering Access"
+                "region": "Torvus Bog",
+                "area": "Gathering Access",
+                "node": "Door to Hydrodynamo Station"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Gathering Hall"
+                "region": "Torvus Bog",
+                "area": "Gathering Hall",
+                "node": "Door to Transit Tunnel West"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Gloom Vista"
+                "region": "Torvus Bog",
+                "area": "Gloom Vista",
+                "node": "Door to Polluted Mire"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Great Bridge"
+                "region": "Torvus Bog",
+                "area": "Great Bridge",
+                "node": "Door to Path of Roots"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Grove Access"
+                "region": "Torvus Bog",
+                "area": "Grove Access",
+                "node": "Door to Torvus Grove"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Hydrochamber Storage"
+                "region": "Torvus Bog",
+                "area": "Hydrochamber Storage",
+                "node": "Door to Main Hydrochamber"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Hydrodynamo Shaft"
+                "region": "Torvus Bog",
+                "area": "Hydrodynamo Shaft",
+                "node": "Door to Hydrodynamo Station"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Hydrodynamo Station"
+                "region": "Torvus Bog",
+                "area": "Hydrodynamo Station",
+                "node": "Door to Underground Transport"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Main Hydrochamber"
+                "region": "Torvus Bog",
+                "area": "Main Hydrochamber",
+                "node": "Door to Hydrochamber Storage"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Meditation Vista"
+                "region": "Torvus Bog",
+                "area": "Meditation Vista",
+                "node": "Door to Torvus Grove"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Path of Roots"
+                "region": "Torvus Bog",
+                "area": "Path of Roots",
+                "node": "Door to Torvus Lagoon"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Plaza Access"
+                "region": "Torvus Bog",
+                "area": "Plaza Access",
+                "node": "Door to Forgotten Bridge"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Poisoned Bog"
+                "region": "Torvus Bog",
+                "area": "Poisoned Bog",
+                "node": "Door to Cache A"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Polluted Mire"
+                "region": "Torvus Bog",
+                "area": "Polluted Mire",
+                "node": "Door to Gloom Vista"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Portal Chamber (Light)"
+                "region": "Torvus Bog",
+                "area": "Portal Chamber (Light)",
+                "node": "Door to Great Bridge"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Putrid Alcove"
+                "region": "Torvus Bog",
+                "area": "Putrid Alcove",
+                "node": "Door to Poisoned Bog"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Ruined Alcove"
+                "region": "Torvus Bog",
+                "area": "Ruined Alcove",
+                "node": "Door to Torvus Lagoon"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Sacrificial Chamber"
+                "region": "Torvus Bog",
+                "area": "Sacrificial Chamber",
+                "node": "Door to Sacrificial Chamber Tunnel"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Sacrificial Chamber Tunnel"
+                "region": "Torvus Bog",
+                "area": "Sacrificial Chamber Tunnel",
+                "node": "Door to Undertemple Shaft"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Save Station 1"
+                "region": "Torvus Bog",
+                "area": "Save Station 1",
+                "node": "Save Station"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Save Station 2"
+                "region": "Torvus Bog",
+                "area": "Save Station 2",
+                "node": "Save Station"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Save Station A"
+                "region": "Torvus Bog",
+                "area": "Save Station A",
+                "node": "Save Station"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Save Station B"
+                "region": "Torvus Bog",
+                "area": "Save Station B",
+                "node": "Save Station"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Temple Access"
+                "region": "Torvus Bog",
+                "area": "Temple Access",
+                "node": "Door to Great Bridge (Top)"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Temple Transport Access"
+                "region": "Torvus Bog",
+                "area": "Temple Transport Access",
+                "node": "Door to Transport to Temple Grounds"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Torvus Energy Controller"
+                "region": "Torvus Bog",
+                "area": "Torvus Energy Controller",
+                "node": "Door to Controller Access"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Torvus Grove"
+                "region": "Torvus Bog",
+                "area": "Torvus Grove",
+                "node": "Door to Underground Tunnel"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Torvus Lagoon"
+                "region": "Torvus Bog",
+                "area": "Torvus Lagoon",
+                "node": "Door to Temple Transport Access"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Torvus Map Station"
+                "region": "Torvus Bog",
+                "area": "Torvus Map Station",
+                "node": "Door to Great Bridge"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Torvus Plaza"
+                "region": "Torvus Bog",
+                "area": "Torvus Plaza",
+                "node": "Door to Plaza Access"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Torvus Temple"
+                "region": "Torvus Bog",
+                "area": "Torvus Temple",
+                "node": "Door to Temple Access (Top)"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Training Access"
+                "region": "Torvus Bog",
+                "area": "Training Access",
+                "node": "Door to Hydrodynamo Station"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Training Chamber"
+                "region": "Torvus Bog",
+                "area": "Training Chamber",
+                "node": "Door to Training Access"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Transit Tunnel East"
+                "region": "Torvus Bog",
+                "area": "Transit Tunnel East",
+                "node": "Door to Training Chamber"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Transit Tunnel South"
+                "region": "Torvus Bog",
+                "area": "Transit Tunnel South",
+                "node": "Door to Catacombs"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Transit Tunnel West"
+                "region": "Torvus Bog",
+                "area": "Transit Tunnel West",
+                "node": "Door to Gathering Hall"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Transport to Agon Wastes"
+                "region": "Torvus Bog",
+                "area": "Transport to Agon Wastes",
+                "node": "Elevator to Agon Wastes"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Transport to Sanctuary Fortress"
+                "region": "Torvus Bog",
+                "area": "Transport to Sanctuary Fortress",
+                "node": "Elevator to Sanctuary Fortress"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Transport to Temple Grounds"
+                "region": "Torvus Bog",
+                "area": "Transport to Temple Grounds",
+                "node": "Elevator to Temple Grounds"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Underground Transport"
+                "region": "Torvus Bog",
+                "area": "Underground Transport",
+                "node": "Door to Torvus Temple"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Underground Tunnel"
+                "region": "Torvus Bog",
+                "area": "Underground Tunnel",
+                "node": "Door to Torvus Temple"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Undertemple"
+                "region": "Torvus Bog",
+                "area": "Undertemple",
+                "node": "Portal to Main Hydrochamber"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Undertemple Shaft"
+                "region": "Torvus Bog",
+                "area": "Undertemple Shaft",
+                "node": "Spawn Point"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Undertransit One"
+                "region": "Torvus Bog",
+                "area": "Undertransit One",
+                "node": "Door to Sacrificial Chamber"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Undertransit Two"
+                "region": "Torvus Bog",
+                "area": "Undertransit Two",
+                "node": "Door to Sacrificial Chamber"
             },
             {
-                "world_name": "Torvus Bog",
-                "area_name": "Venomous Pond"
+                "region": "Torvus Bog",
+                "area": "Venomous Pond",
+                "node": "Door to Brooding Ground"
             }
         ],
         "available_locations": {
             "randomization_mode": "full",
             "excluded_indices": []
         },
-        "major_items_configuration": {
-            "items_state": {
+        "standard_pickup_configuration": {
+            "pickups_state": {
                 "Combat Visor": {
-                    "num_included_in_starting_items": 1
+                    "num_included_in_starting_pickups": 1
                 },
                 "Scan Visor": {
-                    "num_included_in_starting_items": 1
+                    "num_included_in_starting_pickups": 1
                 },
                 "Dark Visor": {
                     "num_shuffled_pickups": 1
@@ -1112,7 +1380,7 @@
                     "num_shuffled_pickups": 1
                 },
                 "Varia Suit": {
-                    "num_included_in_starting_items": 1
+                    "num_included_in_starting_pickups": 1
                 },
                 "Dark Suit": {},
                 "Light Suit": {},
@@ -1123,10 +1391,10 @@
                     "num_shuffled_pickups": 1
                 },
                 "Power Beam": {
-                    "num_included_in_starting_items": 1
+                    "num_included_in_starting_pickups": 1
                 },
                 "Charge Beam": {
-                    "num_included_in_starting_items": 1
+                    "num_included_in_starting_pickups": 1
                 },
                 "Dark Beam": {
                     "num_shuffled_pickups": 1,
@@ -1151,7 +1419,7 @@
                     "num_shuffled_pickups": 1
                 },
                 "Morph Ball": {
-                    "num_included_in_starting_items": 1
+                    "num_included_in_starting_pickups": 1
                 },
                 "Morph Ball Bomb": {
                     "num_shuffled_pickups": 1
@@ -1227,42 +1495,42 @@
                     "num_shuffled_pickups": 14
                 }
             },
-            "default_items": {
+            "default_pickups": {
                 "visor": "Combat Visor",
                 "beam": "Power Beam"
             },
-            "minimum_random_starting_items": 1,
-            "maximum_random_starting_items": 3
+            "minimum_random_starting_pickups": 1,
+            "maximum_random_starting_pickups": 3
         },
-        "ammo_configuration": {
-            "items_state": {
+        "ammo_pickup_configuration": {
+            "pickups_state": {
                 "Missile Expansion": {
                     "ammo_count": [
                         5
                     ],
                     "pickup_count": 33,
-                    "requires_major_item": false
+                    "requires_main_item": false
                 },
                 "Power Bomb Expansion": {
                     "ammo_count": [
                         1
                     ],
                     "pickup_count": 7,
-                    "requires_major_item": false
+                    "requires_main_item": false
                 },
                 "Dark Ammo Expansion": {
                     "ammo_count": [
                         20
                     ],
                     "pickup_count": 9,
-                    "requires_major_item": true
+                    "requires_main_item": true
                 },
                 "Light Ammo Expansion": {
                     "ammo_count": [
                         20
                     ],
                     "pickup_count": 9,
-                    "requires_major_item": true
+                    "requires_main_item": true
                 },
                 "Beam Ammo Expansion": {
                     "ammo_count": [
@@ -1270,7 +1538,7 @@
                         200
                     ],
                     "pickup_count": 0,
-                    "requires_major_item": true
+                    "requires_main_item": true
                 }
             }
         },
@@ -1285,45 +1553,59 @@
             "mode": "vanilla",
             "types_state": {
                 "door": {
-                    "can_change_from": [],
-                    "can_change_to": []
+                    "can_change_from": [
+                        "Annihilator Door",
+                        "Dark Door",
+                        "Light Door",
+                        "Missile Blast Shield",
+                        "Normal Door",
+                        "Power Bomb Blast Shield",
+                        "Seeker Launcher Blast Shield",
+                        "Super Missile Blast Shield"
+                    ],
+                    "can_change_to": [
+                        "Annihilator Door",
+                        "Dark Door",
+                        "Light Door",
+                        "Missile Blast Shield",
+                        "Normal Door",
+                        "Permanently Locked",
+                        "Power Bomb Blast Shield",
+                        "Seeker Launcher Blast Shield (patched)",
+                        "Super Missile Blast Shield"
+                    ]
                 },
                 "portal": {
-                    "can_change_from": [],
-                    "can_change_to": []
-                },
-                "morph_ball": {
-                    "can_change_from": [],
-                    "can_change_to": []
-                },
-                "other": {
                     "can_change_from": [],
                     "can_change_to": []
                 }
             }
         },
-        "elevators": {
+        "single_set_for_pickups_that_solve": false,
+        "staggered_multi_pickup_placement": false,
+        "check_if_beatable_after_base_patches": false,
+        "teleporters": {
             "mode": "randomized",
             "excluded_teleporters": [
                 {
-                    "world_name": "Great Temple",
-                    "area_name": "Sky Temple Energy Controller",
-                    "node_name": "Teleport to Temple Grounds - Sky Temple Gateway"
+                    "region": "Great Temple",
+                    "area": "Sky Temple Energy Controller",
+                    "node": "Elevator to Temple Grounds"
                 },
                 {
-                    "world_name": "Sanctuary Fortress",
-                    "area_name": "Aerie",
-                    "node_name": "Elevator to Sanctuary Fortress - Aerie Transport Station"
+                    "region": "Sanctuary Fortress",
+                    "area": "Aerie",
+                    "node": "Elevator to Aerie Transport Station"
                 },
                 {
-                    "world_name": "Sanctuary Fortress",
-                    "area_name": "Aerie Transport Station",
-                    "node_name": "Elevator to Sanctuary Fortress - Aerie"
+                    "region": "Sanctuary Fortress",
+                    "area": "Aerie Transport Station",
+                    "node": "Elevator to Aerie"
                 },
                 {
-                    "world_name": "Temple Grounds",
-                    "area_name": "Sky Temple Gateway",
-                    "node_name": "Teleport to Great Temple - Sky Temple Energy Controller"
+                    "region": "Temple Grounds",
+                    "area": "Sky Temple Gateway",
+                    "node": "Elevator to Great Temple"
                 }
             ],
             "excluded_targets": [],
@@ -1405,8 +1687,10 @@
         "varia_suit_damage": 6.0,
         "dark_suit_damage": 1.2,
         "dangerous_energy_tank": false,
-        "use_new_patcher": false,
+        "use_new_patcher": true,
         "inverted_mode": false,
+        "portal_rando": false,
+        "blue_save_doors": false,
         "allow_jumping_on_dark_water": false,
         "allow_vanilla_dark_beam": true,
         "allow_vanilla_light_beam": true,
