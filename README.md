@@ -21,5 +21,6 @@ When updating preset zips, please create a new release with the tag format "week
 (Zip Example: "prime-weekly-settings-feb-2023.zip")*
 
 Then edit/replace the files in [Prime](./Prime/), [Echoes](./Echoes/), or [CGC](CGC).\
-*(File Examples: "echoes-even-weekly-settings-current.rdvpreset"\
-*"cgc-prime-weekly-settings-current.rdvpreset"*)
+*(File Examples:*\
+*"echoes-even-weekly-settings-current.rdvpreset"*\
+*"cgc-prime-weekly-settings-current.rdvpreset")*
