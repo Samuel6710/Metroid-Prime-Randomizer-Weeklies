@@ -3,13 +3,13 @@ A repository for the community weekly race presets for the Metroid Prime Randomi
 
 Version zips will be iterated with dates for posterity of old presets.
 
-[Prime Odd Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Prime/prime-odd-weekly-settings-current.rdvpreset)
+[Prime Odd Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Prime/prime-odd-weekly-settings-current.rdvpreset)\
 [Prime Even Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Prime/prime-even-weekly-settings-current.rdvpreset)
 
-[Echoes Odd Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Echoes/echoes-odd-weekly-settings-current.rdvpreset)
+[Echoes Odd Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Echoes/echoes-odd-weekly-settings-current.rdvpreset)\
 [Echoes Even Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Echoes/echoes-even-weekly-settings-current.rdvpreset)
 
-[CGC Weekly Prime Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/CGC/cgc-prime-weekly-settings-current.rdvpreset)
+[CGC Weekly Prime Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/CGC/cgc-prime-weekly-settings-current.rdvpreset)\
 [CGC Weekly Echoes Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/CGC/cgc-prime-weekly-settings-current.rdvpreset)
 
 *To download individual files, use the RAW button and then right-click -> save as. Make sure to remove the ".txt" that automatically appends to the end of the file.*
