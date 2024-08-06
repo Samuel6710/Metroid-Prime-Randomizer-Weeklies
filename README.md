@@ -3,11 +3,12 @@ A repository for the community weekly race presets for the Metroid Prime Randomi
 
 Version zips will be iterated with dates for posterity of old presets.
 
-[Prime Odd Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Prime/prime-odd-weekly-settings-current.rdvpreset)\
-[Prime Even Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Prime/prime-even-weekly-settings-current.rdvpreset)
+[Prime Standard Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Prime/prime-standard-weekly-settings-current.rdvpreset)\
+[Prime Alternate Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Prime/prime-standard-weekly-settings-current.rdvpreset)
+[Prime Hard Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Prime/prime-hard-weekly-settings-current.rdvpreset)
 
-[Echoes Odd Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Echoes/echoes-odd-weekly-settings-current.rdvpreset)\
-[Echoes Even Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Echoes/echoes-even-weekly-settings-current.rdvpreset)
+[Echoes Standard Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Echoes/echoes-standard-weekly-settings-current.rdvpreset)\
+[Echoes Alternate Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Echoes/echoes-alternate-weekly-settings-current.rdvpreset)
 
 [CGC Weekly Prime Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/CGC/cgc-prime-weekly-settings-current.rdvpreset)\
 [CGC Weekly Echoes Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/CGC/cgc-prime-weekly-settings-current.rdvpreset)
@@ -22,5 +23,5 @@ When updating preset zips, please create a new release with the tag format "week
 
 Then edit/replace the files in [Prime](./Prime/), [Echoes](./Echoes/), or [CGC](CGC).\
 *(File Examples:*\
-*"echoes-even-weekly-settings-current.rdvpreset"*\
+*"echoes-standard-weekly-settings-current.rdvpreset"*\
 *"cgc-prime-weekly-settings-current.rdvpreset")*
