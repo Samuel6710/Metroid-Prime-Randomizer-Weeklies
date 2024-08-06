@@ -1,9 +1,9 @@
 {
-    "schema_version": 63,
+    "schema_version": 88,
     "base_preset_uuid": null,
-    "name": "Odd Weekly Settings (September 2023)",
-    "uuid": "0fd63e0f-322d-41ed-99ef-09691b7abac5",
-    "description": "Odd week settings for the Metroid Prime Randomizer Community Weekly Races.",
+    "name": "Standard Weekly Settings (August 2024)",
+    "uuid": "ee8ae394-78de-4a06-ad81-7147d6898b88",
+    "description": "Standard week settings for the Metroid Prime Randomizer Community Weekly Races.",
     "game": "prime1",
     "configuration": {
         "trick_level": {
@@ -138,6 +138,27 @@
                     ],
                     "pickup_count": 4,
                     "requires_main_item": false
+                },
+                "Energy Refill": {
+                    "ammo_count": [
+                        20
+                    ],
+                    "pickup_count": 0,
+                    "requires_main_item": false
+                },
+                "Missile Refill": {
+                    "ammo_count": [
+                        5
+                    ],
+                    "pickup_count": 0,
+                    "requires_main_item": false
+                },
+                "Power Bomb Refill": {
+                    "ammo_count": [
+                        1
+                    ],
+                    "pickup_count": 0,
+                    "requires_main_item": false
                 }
             }
         },
@@ -160,19 +181,12 @@
                         "Wave Door"
                     ],
                     "can_change_to": [
-                        "Bomb Blast Shield",
-                        "Charge Beam Blast Shield",
-                        "Flamethrower Blast Shield",
                         "Ice Door",
-                        "Ice Spreader Blast Shield",
                         "Missile Blast Shield (randomprime)",
                         "Normal Door",
                         "Permanently Locked",
                         "Plasma Door",
-                        "Power Bomb Blast Shield",
-                        "Super Missile Blast Shield",
-                        "Wave Door",
-                        "Wavebuster Blast Shield"
+                        "Wave Door"
                     ]
                 }
             }
@@ -214,10 +228,11 @@
         },
         "energy_per_tank": 100,
         "artifact_target": 6,
+        "artifact_required": 6,
         "artifact_minimum_progression": 0,
         "heat_damage": 10.0,
         "warp_to_start": true,
-        "progressive_damage_reduction": false,
+        "damage_reduction": "Additive",
         "allow_underwater_movement_without_gravity": false,
         "small_samus": false,
         "large_samus": false,
@@ -230,14 +245,15 @@
         "room_rando": "None",
         "spring_ball": false,
         "main_plaza_door": true,
-        "blue_save_doors": false,
+        "blue_save_doors": true,
         "backwards_frigate": true,
         "backwards_labs": true,
         "backwards_upper_mines": true,
         "backwards_lower_mines": false,
         "phazon_elite_without_dynamo": true,
         "legacy_mode": false,
-        "qol_cutscenes": "competitive",
+        "qol_cutscenes": "SkippableCompetitive",
+        "ingame_difficulty": "Normal",
         "enemy_attributes": null
     }
 }
