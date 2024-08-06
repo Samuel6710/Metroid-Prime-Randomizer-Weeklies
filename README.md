@@ -4,7 +4,7 @@ A repository for the community weekly race presets for the Metroid Prime Randomi
 Version zips will be iterated with dates for posterity of old presets.
 
 [Prime Standard Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Prime/prime-standard-weekly-settings-current.rdvpreset)\
-[Prime Alternate Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Prime/prime-standard-weekly-settings-current.rdvpreset)
+[Prime Alternate Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Prime/prime-standard-weekly-settings-current.rdvpreset)\
 [Prime Hard Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Prime/prime-hard-weekly-settings-current.rdvpreset)
 
 [Echoes Standard Weekly Settings](https://github.com/Uncle-Reggie/Metroid-Prime-Randomizer-Weeklies/blob/main/Echoes/echoes-standard-weekly-settings-current.rdvpreset)\
