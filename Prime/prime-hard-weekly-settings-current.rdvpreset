@@ -1,8 +1,8 @@
 {
-    "schema_version": 63,
+    "schema_version": 88,
     "base_preset_uuid": null,
-    "name": "Hard Weekly Settings (September 2023)",
-    "uuid": "3d644ff9-201d-44fc-b675-38acbf87e5ab",
+    "name": "Hard Weekly Settings (August 2024)",
+    "uuid": "a395472f-9853-4240-90a7-a96167186483",
     "description": "Hard week settings for the Metroid Prime Randomizer Community Weekly Races.",
     "game": "prime1",
     "configuration": {
@@ -106,11 +106,6 @@
                 "region": "Chozo Ruins",
                 "area": "Eyon Tunnel",
                 "node": "Door to Nursery Access"
-            },
-            {
-                "region": "Chozo Ruins",
-                "area": "Furnace",
-                "node": "Under Spider Track"
             },
             {
                 "region": "Chozo Ruins",
@@ -1079,11 +1074,6 @@
             },
             {
                 "region": "Tallon Overworld",
-                "area": "Overgrown Cavern",
-                "node": "Door to Frigate Crash Site"
-            },
-            {
-                "region": "Tallon Overworld",
                 "area": "Reactor Access",
                 "node": "Door to Reactor Core"
             },
@@ -1293,6 +1283,27 @@
                     ],
                     "pickup_count": 4,
                     "requires_main_item": false
+                },
+                "Energy Refill": {
+                    "ammo_count": [
+                        20
+                    ],
+                    "pickup_count": 0,
+                    "requires_main_item": false
+                },
+                "Missile Refill": {
+                    "ammo_count": [
+                        5
+                    ],
+                    "pickup_count": 0,
+                    "requires_main_item": false
+                },
+                "Power Bomb Refill": {
+                    "ammo_count": [
+                        1
+                    ],
+                    "pickup_count": 0,
+                    "requires_main_item": false
                 }
             }
         },
@@ -1315,25 +1326,18 @@
                         "Wave Door"
                     ],
                     "can_change_to": [
-                        "Bomb Blast Shield",
-                        "Charge Beam Blast Shield",
-                        "Flamethrower Blast Shield",
                         "Ice Door",
-                        "Ice Spreader Blast Shield",
                         "Missile Blast Shield (randomprime)",
                         "Normal Door",
                         "Permanently Locked",
                         "Plasma Door",
-                        "Power Bomb Blast Shield",
-                        "Super Missile Blast Shield",
-                        "Wave Door",
-                        "Wavebuster Blast Shield"
+                        "Wave Door"
                     ]
                 }
             }
         },
-        "single_set_for_pickups_that_solve": false,
-        "staggered_multi_pickup_placement": false,
+        "single_set_for_pickups_that_solve": true,
+        "staggered_multi_pickup_placement": true,
         "check_if_beatable_after_base_patches": false,
         "teleporters": {
             "mode": "randomized",
@@ -1369,10 +1373,11 @@
         },
         "energy_per_tank": 100,
         "artifact_target": 9,
-        "artifact_minimum_progression": 6,
+        "artifact_required": 9,
+        "artifact_minimum_progression": 0,
         "heat_damage": 10.0,
         "warp_to_start": true,
-        "progressive_damage_reduction": true,
+        "damage_reduction": "Additive",
         "allow_underwater_movement_without_gravity": true,
         "small_samus": false,
         "large_samus": false,
@@ -1392,7 +1397,8 @@
         "backwards_lower_mines": false,
         "phazon_elite_without_dynamo": true,
         "legacy_mode": false,
-        "qol_cutscenes": "competitive",
+        "qol_cutscenes": "SkippableCompetitive",
+        "ingame_difficulty": "Normal",
         "enemy_attributes": null
     }
 }
