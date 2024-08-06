@@ -1,9 +1,9 @@
 {
-    "schema_version": 63,
+    "schema_version": 88,
     "base_preset_uuid": null,
-    "name": "Odd Weekly Settings (September 2023)",
-    "uuid": "072aab5c-8b13-472a-90b3-d5ac5cce3dbe",
-    "description": "Odd week settings for the Metroid Prime 2 Echoes Randomizer Community Weekly Races.",
+    "name": "Alternate Weekly Settings (August 2024)",
+    "uuid": "cfc3d147-e777-4189-b96d-95ef814e93f8",
+    "description": "Alternate week settings for the Metroid Prime 2 Echoes Randomizer Community Weekly Races.",
     "game": "prime2",
     "configuration": {
         "trick_level": {
@@ -1581,8 +1581,8 @@
                 }
             }
         },
-        "single_set_for_pickups_that_solve": false,
-        "staggered_multi_pickup_placement": false,
+        "single_set_for_pickups_that_solve": true,
+        "staggered_multi_pickup_placement": true,
         "check_if_beatable_after_base_patches": false,
         "teleporters": {
             "mode": "randomized",
@@ -1609,7 +1609,7 @@
                 }
             ],
             "excluded_targets": [],
-            "skip_final_bosses": true,
+            "skip_final_bosses": false,
             "allow_unvisited_room_names": true
         },
         "sky_temple_keys": 9,
