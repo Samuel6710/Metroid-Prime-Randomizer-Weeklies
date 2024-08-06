@@ -1,9 +1,9 @@
 {
-    "schema_version": 63,
+    "schema_version": 88,
     "base_preset_uuid": null,
-    "name": "Even Weekly Settings (September 2023)",
-    "uuid": "99f0542d-c038-4ac4-97f7-e1089972b7c3",
-    "description": "Even week settings for the Metroid Prime Randomizer Community Weekly Races.",
+    "name": "Alternate Weekly Settings (August 2024)",
+    "uuid": "e0a6f892-f534-4d95-848f-637b4721a64b",
+    "description": "Alternate week settings for the Metroid Prime Randomizer Community Weekly Races.",
     "game": "prime1",
     "configuration": {
         "trick_level": {
@@ -101,11 +101,6 @@
                 "region": "Chozo Ruins",
                 "area": "Eyon Tunnel",
                 "node": "Door to Nursery Access"
-            },
-            {
-                "region": "Chozo Ruins",
-                "area": "Furnace",
-                "node": "Under Spider Track"
             },
             {
                 "region": "Chozo Ruins",
@@ -1074,11 +1069,6 @@
             },
             {
                 "region": "Tallon Overworld",
-                "area": "Overgrown Cavern",
-                "node": "Door to Frigate Crash Site"
-            },
-            {
-                "region": "Tallon Overworld",
                 "area": "Reactor Access",
                 "node": "Door to Reactor Core"
             },
@@ -1288,6 +1278,27 @@
                     ],
                     "pickup_count": 4,
                     "requires_main_item": false
+                },
+                "Energy Refill": {
+                    "ammo_count": [
+                        20
+                    ],
+                    "pickup_count": 0,
+                    "requires_main_item": false
+                },
+                "Missile Refill": {
+                    "ammo_count": [
+                        5
+                    ],
+                    "pickup_count": 0,
+                    "requires_main_item": false
+                },
+                "Power Bomb Refill": {
+                    "ammo_count": [
+                        1
+                    ],
+                    "pickup_count": 0,
+                    "requires_main_item": false
                 }
             }
         },
@@ -1310,33 +1321,41 @@
                         "Wave Door"
                     ],
                     "can_change_to": [
-                        "Bomb Blast Shield",
-                        "Charge Beam Blast Shield",
-                        "Flamethrower Blast Shield",
                         "Ice Door",
-                        "Ice Spreader Blast Shield",
                         "Missile Blast Shield (randomprime)",
                         "Normal Door",
                         "Permanently Locked",
                         "Plasma Door",
-                        "Power Bomb Blast Shield",
-                        "Super Missile Blast Shield",
-                        "Wave Door",
-                        "Wavebuster Blast Shield"
+                        "Wave Door"
                     ]
                 }
             }
         },
-        "single_set_for_pickups_that_solve": false,
-        "staggered_multi_pickup_placement": false,
+        "single_set_for_pickups_that_solve": true,
+        "staggered_multi_pickup_placement": true,
         "check_if_beatable_after_base_patches": false,
         "teleporters": {
             "mode": "randomized",
             "excluded_teleporters": [
                 {
+                    "region": "Frigate Orpheon",
+                    "area": "Exterior Docking Hangar",
+                    "node": "Teleporter to Tallon Overworld"
+                },
+                {
                     "region": "Impact Crater",
                     "area": "Crater Entry Point",
                     "node": "Teleporter to Tallon Overworld"
+                },
+                {
+                    "region": "Impact Crater",
+                    "area": "Metroid Prime Lair",
+                    "node": "Teleporter to Credits"
+                },
+                {
+                    "region": "Tallon Overworld",
+                    "area": "Artifact Temple",
+                    "node": "Teleporter to Impact Crater"
                 }
             ],
             "excluded_targets": [],
@@ -1349,10 +1368,11 @@
         },
         "energy_per_tank": 100,
         "artifact_target": 6,
-        "artifact_minimum_progression": 9,
+        "artifact_required": 6,
+        "artifact_minimum_progression": 0,
         "heat_damage": 10.0,
         "warp_to_start": true,
-        "progressive_damage_reduction": false,
+        "damage_reduction": "Additive",
         "allow_underwater_movement_without_gravity": false,
         "small_samus": false,
         "large_samus": false,
@@ -1365,14 +1385,15 @@
         "room_rando": "None",
         "spring_ball": false,
         "main_plaza_door": true,
-        "blue_save_doors": false,
+        "blue_save_doors": true,
         "backwards_frigate": true,
         "backwards_labs": true,
         "backwards_upper_mines": true,
         "backwards_lower_mines": false,
         "phazon_elite_without_dynamo": true,
         "legacy_mode": false,
-        "qol_cutscenes": "competitive",
+        "qol_cutscenes": "SkippableCompetitive",
+        "ingame_difficulty": "Normal",
         "enemy_attributes": null
     }
 }
