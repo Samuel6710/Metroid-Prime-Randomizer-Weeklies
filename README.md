@@ -17,11 +17,20 @@ Version zips will be iterated with dates for posterity of old presets.
 
 # Maintainers
 
-When updating preset zips, please create a new release with the tag format "weekly-settings-month-year" and upload the new zip along with the other game's current zip. Use the same format for the zip filenames with the games' name appended to the front of the zip. Bonus points for including a screenshot of preset info from Caretaker Class Drone.\
-*(Tag Example: "weekly-settings-feb-2023")\
-(Zip Example: "prime-weekly-settings-feb-2023.zip")*
+When updating preset zips, please do the following: 
 
-Then edit/replace the files in [Prime](./Prime/), [Echoes](./Echoes/), or [CGC](CGC).\
-*(File Examples:*\
-*"echoes-standard-weekly-settings-current.rdvpreset"*\
-*"cgc-prime-weekly-settings-current.rdvpreset")*
+1. Edit/replace the presets in [Prime](./Prime/), [Echoes](./Echoes/), or [CGC](CGC).\
+   If you add new presets, make sure that they're following the format of `<game>-<setting>-weekly-settings-current.rdvpreset`.
+  *(File Examples:*\
+  *"echoes-standard-weekly-settings-current.rdvpreset"*\
+  *"cgc-prime-weekly-settings-current.rdvpreset"*\
+  *"prime-door-lock-weekly-settings-current.rdvpreset"*)
+
+
+2. Go to the [Workflow Page](https://github.com/Miepee/Metroid-Prime-Randomizer-Weeklies/actions/workflows/blank.yml) and click on the "Run Workflow" button.
+  ![grafik](https://github.com/user-attachments/assets/c72725d2-c6d9-492c-9079-3c8583959c9a)
+
+3. Wait for the Release to get created.
+
+4. Edit the latest release and add screenshots of the Caretake Class Drone preset info.
+

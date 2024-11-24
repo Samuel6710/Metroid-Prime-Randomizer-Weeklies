@@ -1,0 +1,72 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on:
+  # Only manual trigger
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+        FOLDERS: "Prime Echoes CGC"
+
+    steps:
+    
+      - uses: actions/checkout@v4
+
+      - name: Set environment variables
+        run: |
+          export LANG=C
+          month_short=$(date +%b) 
+          month_long=$(date +%B) 
+          month_long_upper=$month_long
+          year=$(date +%Y)
+          
+          month_short="${month_short,,}"
+          month_long="${month_long,,}"
+          
+          
+          echo "MONTH_SHORT=$month_short" >> $GITHUB_ENV
+          echo "MONTH_LONG=$month_long" >> $GITHUB_ENV
+          echo "MONTH_LONG_UPPER=$month_long_upper" >> $GITHUB_ENV
+          echo "YEAR=$year" >> $GITHUB_ENV
+          
+      - name: Rename Presets in preperation for upload
+        run: |
+          for subfolder in $FOLDERS
+          do
+            echo $subfolder
+            for f in ./$subfolder/*.rdvpreset
+            do
+              echo $f
+              mv $f ${f/current/"$MONTH_LONG-$YEAR"}
+            done
+          done
+          tree .
+
+      - name: Create zips
+        run: |
+          for subfolder in $FOLDERS
+          do
+            zip -j ${subfolder,,}-weekly-settings-$MONTH_SHORT-$YEAR.zip ./$subfolder/*.rdvpreset
+          done
+          ls
+        
+      #- uses: actions/upload-artifact@v4
+      #  with:
+      #    name: my-artifact
+      #    path: ./*.zip
+
+
+      - name: Create Tag and Release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file_glob: true
+          file: ./*.zip
+          tag: weekly-settings-${{ env.MONTH_SHORT }}-${{ env.YEAR }}
+          release_name: Prime/Echoes/CGC Weekly Settings (${{ env.MONTH_LONG_UPPER }} ${{ env.YEAR }})
+          body: "Current presets for all Prime/Echoes/CGC weeklies as of ${{ env.MONTH_LONG_UPPER }} ${{ env.YEAR }}."
