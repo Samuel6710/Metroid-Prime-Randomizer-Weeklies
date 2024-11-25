@@ -1,7 +1,7 @@
 {
-    "schema_version": 88,
+    "schema_version": 91,
     "base_preset_uuid": null,
-    "name": "CGC Echoes Weekly (August 2024)",
+    "name": "CGC Echoes Weekly (November 2024)",
     "uuid": "182a2cc6-a1c5-46e9-817d-16a73877aa43",
     "description": "Echoes settings for the Cross-Game Clash Community weekly Races.",
     "game": "prime2",
@@ -101,7 +101,9 @@
                         3
                     ]
                 },
-                "Cannon Ball": {},
+                "Cannon Ball": {
+                    "num_shuffled_pickups": 1
+                },
                 "Space Jump Boots": {
                     "num_shuffled_pickups": 1
                 },
